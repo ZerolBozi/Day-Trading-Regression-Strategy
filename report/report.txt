@@ -1,0 +1,42 @@
+I will show you the main points of the paper, the paper name is called em_piri_cal (a)e_valuations on momentum effects of Taiwan
+
+The (a)e_(fi)ffi_(shent)cient - Market Hy_pothe_sis suggests that predicting market moves is tough due to quick reactions to new information.
+However, some strategies, like momentum strategy, seem profitable in practice.
+We explored this in Taiwan's stock market using real data. Testing four strategies on TAIEX Futures from Jan 2010 to Mar 2015, we found market in_(n)e_ffi_ciencies.
+Different stop loss and take profit methods confirmed the momentum effect. Managing these approa_ches is cru_(show)cial for strategy success, imporving trading quality beyond just tech_nical details.
+
+The paper give us two types of trading strategies
+first, mean rever_sion strategy
+the second one is momentum strategy.
+this paper focuses on the second type of strategy and employs the the following four types of day trading strategies
+first one is base momentum strategy
+and second one is add the stop loss in the strategy
+third one is add the take profit
+last strategy is to use stop loss and take profit
+
+How to trade?
+When the stock price breaks the set thres_hold price within the trading day, we take long or short positions and close them at the end of the market trading time
+
+Here is the For_mu_la used in the paper
+
+The testing is done in groups of 100 trades each, calculating the sta_tis_tical data for each group.
+
+The test results showed that momentum strategies are effec_tive in Taiwan's index futures market. Additionally, using stop-loss instead of take-profit led to higher profits, highlighting the momentum effect in the market.
+
+This chart com_pares the four types of strategies.
+You can see that the stop loss strategy is the most effec_tive.
+
+This is how the paper find the best parameters
+
+The most (stay)sta_ble profit can be assessed using two performance indi_cators
+the TP/MDD ratio and the System Quality Number (SQN). The TP and MDD ratio is called MAR index, and a higher value indicates a better strategy. As TP goes up, MDD goes down, leading to a larger MAR. This indicates smaller fluc_tu_ations in (games)gains and losses and more stable profit growth.
+On the other hand, the SQN is calculated as Average Profit divided Stan_dard Devi_ation of Profits mul_ti_plied S_(貴兒)quare Root of Number of Trades. If SQN more then 2, it suggests a fair_ly good trading strategy.
+
+Conclusion
+This paper explores the momentum effect in Taiwan's index futures market. Momentum strategies confirm the profit_ability in the market. Additionally, in_cor_po_rating stop-loss and take-profit methods into consider_ation veri_fies the momentum effect phenomenon in Taiwan's stock market. According to test results, the stop-loss method appears to effec_tively (in)en_hance the performance of trading strategies, while the take-profit method does not. This phenomenon is re_ferred to as the momentum effect in Taiwan's index futures.
+
+The current code standar_(dies)dizes data formats and supports backtesting for both the US and Taiwan stock markets. In the future, it can ac_commo_date additional markets. If real trading is to be im_ple_mented, pathways for real trading have also been prepared.
+
+You can adjust parameter values based on the items shown in the following images and use the method pro_vided in the paper to find the opti_mal parameter solution.
+
+This website will display visual results, but the results is use Taiwan stocks data. the US stock visual results not do yet. Here is the address

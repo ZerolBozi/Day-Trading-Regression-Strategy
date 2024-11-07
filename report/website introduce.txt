@@ -1,0 +1,1 @@
+this is gui demo and introduce how to use this website, The first button in the upper left corner is for switching between listed and OTC types. The second button allows for selecting company types. Below are options to choose stocks, and after selection, the chart of stock trading results will be displayed. The chart at the bottom enables the comparison of multiple stocks.

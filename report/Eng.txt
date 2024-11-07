@@ -1,0 +1,19 @@
+This is last month's progress chart. The items on the right with checkmarks are completed tasks. The unfinished items are "Stock events and stock types" and "Test parameters," which still need CCU's a_ssistance to address.
+
+In the stock events part, this month we attempted to fetch news data using the TEJPro database. However, we later discovered that the data in the TEJPro database is outdated, and new news is only added at the end of the day. If using the crawler program I pre_vious_ly wrote, we can scrape real-time news, but it might be limited by the website. Additionally, we'll need to implement a new cate_gori_zation method that determines which stocks are affected and to what extent.
+
+In the backtesting section, here are the ongoing and completed tasks:
+
+Firstly, we've added several new parameters to the strategy function, including the holding days, whether to settle at the end of each week, whether to settle at the end of each month, and trade value. Trade value allows you to decide an amount for trading stocks, and it automatically calculates the number of shares you can buy. Additionally, we have uploaded US stock backtesting data to the website, and it now offers categorization and filtering options for Taiwan stocks.
+
+On the programming side, we've created APIs to enable our website to request data from the server.
+
+Currently, the website is not online yet. When the website is online, you'll be able to con_duct tests. You can use it to test different strategy parameters and find the opti_mal(mall) ones.
+
+In our future plans, we intend to introduce more real_is(this)_tic backtesting. You'll be able to set a starting capital and observe how the strategy affects your assets. We're also planning to implement a real trading system, connecting it to real trading APIs to create an automated trading system. On the programming side, we'll be working on stock selection to match this strategy and creating a database system for the website.
+
+This is our new discovery, during internal testing with the newly added strategy parameters, we discovered and confirmed that day trading is not the best choice. You can see the table and comparative chart of Amazon's stock below the presentation. For Amazon, with the same strategy parameters, the performance using 'end of week' is the best. And this is the ranking table of total profits under different modes. You can discover that some stocks are suitable for day-trading, while others are suitable for 'end_of_week' or 'end_of_month. Maybe because sometimes, the price doesn't return to the opening price right away.
+
+here is the next month's progress chart, it's not done yet.
+
+this is our progress report, thanks.
